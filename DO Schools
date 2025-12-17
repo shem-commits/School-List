@@ -1,0 +1,136 @@
+/**
+ * US DO Medical Schools (AACOMAS-accredited)
+ * Source: AACOM Official Directory (2024)
+ * Last Updated: 2025-10-31
+ *
+ * IMPORTANT: DO schools are NOT ranked by NIH funding
+ * All DO schools have rank: null
+ */
+
+export const doSchools = [
+  { rank: null, name: 'A.T. Still University - Kirksville College of Osteopathic Medicine' },
+  { rank: null, name: 'A.T. Still University - School of Osteopathic Medicine in Arizona' },
+  { rank: null, name: 'Alabama College of Osteopathic Medicine' },
+  { rank: null, name: 'Arkansas College of Osteopathic Medicine' },
+  { rank: null, name: 'Arizona College of Osteopathic Medicine of Midwestern University' },
+  { rank: null, name: 'Burrell College of Osteopathic Medicine' },
+  { rank: null, name: 'Baptist Health Sciences University College of Osteopathic Medicine' },
+  { rank: null, name: 'California Health Sciences University College of Osteopathic Medicine' },
+  { rank: null, name: 'Campbell University School of Osteopathic Medicine' },
+  { rank: null, name: 'Chicago College of Osteopathic Medicine' },
+  { rank: null, name: 'Des Moines University College of Osteopathic Medicine' },
+  { rank: null, name: 'Dr. Kiran C. Patel College of Osteopathic Medicine' },
+  { rank: null, name: "D'Youville University College of Osteopathic Medicine" },
+  { rank: null, name: 'Duquesne University College of Osteopathic Medicine' },
+  { rank: null, name: 'Edward Via College of Osteopathic Medicine - Auburn' },
+  { rank: null, name: 'Edward Via College of Osteopathic Medicine - Carolinas' },
+  { rank: null, name: 'Edward Via College of Osteopathic Medicine - Louisiana' },
+  { rank: null, name: 'Edward Via College of Osteopathic Medicine - Virginia' },
+  { rank: null, name: 'Idaho College of Osteopathic Medicine' },
+  { rank: null, name: 'Kansas City University College of Osteopathic Medicine' },
+  { rank: null, name: 'Lake Erie College of Osteopathic Medicine' },
+  { rank: null, name: 'Lake Erie College of Osteopathic Medicine - Bradenton' },
+  { rank: null, name: 'Liberty University College of Osteopathic Medicine' },
+  { rank: null, name: 'Lincoln Memorial University - DeBusk College of Osteopathic Medicine' },
+  { rank: null, name: 'Marian University College of Osteopathic Medicine' },
+  { rank: null, name: 'Michigan State University College of Osteopathic Medicine' },
+  { rank: null, name: 'Midwestern University - Chicago College of Osteopathic Medicine' },
+  { rank: null, name: 'New York Institute of Technology College of Osteopathic Medicine' },
+  { rank: null, name: 'Oklahoma State University Center for Health Sciences College of Osteopathic Medicine' },
+  { rank: null, name: 'Pacific Northwest University of Health Sciences College of Osteopathic Medicine' },
+  { rank: null, name: 'Philadelphia College of Osteopathic Medicine' },
+  { rank: null, name: 'Philadelphia College of Osteopathic Medicine - Georgia' },
+  { rank: null, name: 'Rocky Vista University College of Osteopathic Medicine' },
+  { rank: null, name: 'Rocky Vista University College of Osteopathic Medicine - Southern Utah' },
+  { rank: null, name: 'Rowan University School of Osteopathic Medicine' },
+  { rank: null, name: 'Sam Houston State University College of Osteopathic Medicine' },
+  { rank: null, name: 'Touro College of Osteopathic Medicine' },
+  { rank: null, name: 'Touro University California College of Osteopathic Medicine' },
+  { rank: null, name: 'Touro University Nevada College of Osteopathic Medicine' },
+  { rank: null, name: 'University of the Incarnate Word School of Osteopathic Medicine' },
+  { rank: null, name: 'University of New England College of Osteopathic Medicine' },
+  { rank: null, name: 'University of North Texas Health Science Center - Texas College of Osteopathic Medicine' },
+  { rank: null, name: 'University of Pikeville - Kentucky College of Osteopathic Medicine' },
+  { rank: null, name: 'West Virginia School of Osteopathic Medicine' },
+  { rank: null, name: 'Western University of Health Sciences College of Osteopathic Medicine' },
+  { rank: null, name: 'William Carey University College of Osteopathic Medicine' }
+]
+
+export const doSchoolShorthands = {
+  'atsu': 'A.T. Still University - Kirksville College of Osteopathic Medicine',
+  'atsu-soma': 'A.T. Still University - School of Osteopathic Medicine in Arizona',
+  'acom': 'Alabama College of Osteopathic Medicine',
+  'arcom': 'Arkansas College of Osteopathic Medicine',
+  'bccom': 'Burrell College of Osteopathic Medicine',
+  'chucom': 'California Health Sciences University College of Osteopathic Medicine',
+  'cusom': 'Campbell University School of Osteopathic Medicine',
+  'ccom': 'Chicago College of Osteopathic Medicine',
+  'dmu': 'Des Moines University College of Osteopathic Medicine',
+  'nova': 'Dr. Kiran C. Patel College of Osteopathic Medicine',
+  'vcom-auburn': 'Edward Via College of Osteopathic Medicine - Auburn',
+  'vcom-carolinas': 'Edward Via College of Osteopathic Medicine - Carolinas',
+  'vcom-louisiana': 'Edward Via College of Osteopathic Medicine - Louisiana',
+  'vcom': 'Edward Via College of Osteopathic Medicine - Virginia',
+  'icom': 'Idaho College of Osteopathic Medicine',
+  'kcucom': 'Kansas City University College of Osteopathic Medicine',
+  'lecom': 'Lake Erie College of Osteopathic Medicine',
+  'lecom-bradenton': 'Lake Erie College of Osteopathic Medicine - Bradenton',
+  'lucom': 'Liberty University College of Osteopathic Medicine',
+  'lmucom': 'Lincoln Memorial University - DeBusk College of Osteopathic Medicine',
+  'mucom': 'Marian University College of Osteopathic Medicine',
+  'msucom': 'Michigan State University College of Osteopathic Medicine',
+  'azcom': 'Arizona College of Osteopathic Medicine of Midwestern University',
+  'bucom': 'Baptist Health Sciences University College of Osteopathic Medicine',
+  'mwu-ccom': 'Midwestern University - Chicago College of Osteopathic Medicine',
+  'nyitcom': 'New York Institute of Technology College of Osteopathic Medicine',
+  'osu-com': 'Oklahoma State University Center for Health Sciences College of Osteopathic Medicine',
+  'pnwu': 'Pacific Northwest University of Health Sciences College of Osteopathic Medicine',
+  'pcom': 'Philadelphia College of Osteopathic Medicine',
+  'pcom-georgia': 'Philadelphia College of Osteopathic Medicine - Georgia',
+  'rvucom': 'Rocky Vista University College of Osteopathic Medicine',
+  'rvucom-su': 'Rocky Vista University College of Osteopathic Medicine - Southern Utah',
+  'rowan': 'Rowan University School of Osteopathic Medicine',
+  'shsucom': 'Sam Houston State University College of Osteopathic Medicine',
+  'tucom': 'Touro College of Osteopathic Medicine',
+  'tu-ccom': 'Touro University California College of Osteopathic Medicine',
+  'tuncom': 'Touro University Nevada College of Osteopathic Medicine',
+  'uiwsom': 'University of the Incarnate Word School of Osteopathic Medicine',
+  'unecom': 'University of New England College of Osteopathic Medicine',
+  'unthsc-tcom': 'University of North Texas Health Science Center - Texas College of Osteopathic Medicine',
+  'kycom': 'University of Pikeville - Kentucky College of Osteopathic Medicine',
+  'wvsom': 'West Virginia School of Osteopathic Medicine',
+  'westernu': 'Western University of Health Sciences College of Osteopathic Medicine',
+  'wcucom': 'William Carey University College of Osteopathic Medicine',
+  'dyucom': "D'Youville University College of Osteopathic Medicine",
+  'duqcom': 'Duquesne University College of Osteopathic Medicine'
+}
+
+/**
+ * Check if a school name is a DO school
+ * @param {string} schoolName - School name to check
+ * @returns {boolean} True if DO school, false otherwise
+ */
+export const isDOSchool = (schoolName) => {
+  if (!schoolName) return false
+  const normalized = schoolName.toLowerCase().trim()
+
+  // Check full name match
+  const fullNameMatch = doSchools.some(school =>
+    school.name.toLowerCase() === normalized
+  )
+
+  // Check shorthand match
+  const shorthandMatch = !!doSchoolShorthands[normalized]
+
+  return fullNameMatch || shorthandMatch
+}
+
+/**
+ * Get full DO school name from shorthand
+ * @param {string} shorthand - Shorthand abbreviation
+ * @returns {string|null} Full school name or null
+ */
+export const getDOSchoolFullName = (shorthand) => {
+  if (!shorthand) return null
+  return doSchoolShorthands[shorthand.toLowerCase().trim()] || null
+}
